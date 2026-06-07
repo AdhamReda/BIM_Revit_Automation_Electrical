@@ -26,7 +26,7 @@ symbol = None
 
 for s in all_symbols:
     if s.get_Parameter(BuiltInParameter.SYMBOL_NAME_PARAM).AsString() == "cutwire":
-        if s.Family.Name == "EL_DTL_moi-cutwire _SCG":
+        #if s.Family.Name == "Cutwire Detail Item Family Name": here put your detail Item family name
             symbol = s
             break
 
