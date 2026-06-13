@@ -1,6 +1,6 @@
 Description
 
-This Dynamo Python script identifies electrical fixtures that are not connected to any electrical circuit within the currently active Revit view. It collects all electrical fixtures visible in the view, checks whether each fixture belongs to an electrical system through its MEP model, and returns a list of fixtures with no assigned circuit.
+This Dynamo Python script identifies electrical/lighting fixtures that are not connected to any electrical circuit within the currently active Revit view. It collects all electrical fixtures visible in the view, checks whether each fixture belongs to an electrical system through its MEP model, and returns a list of fixtures with no assigned circuit.
 
 Purpose
 
